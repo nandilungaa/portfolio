@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandi Lunga - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white font-semibold text-xl">Nandi Lunga</a>
+            <ul class="flex space-x-4">
+                <li><a href="#home.html" class="text-white">Home</a></li>
+                <li><a href="#about.html" class="text-white">About Me</a></li>
+                <li><a href="#projects.html" class="text-white">Projects</a></li>
+                <li><a href="#contact.html" class="text-white">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-black text-white p-16 text-center" id="home">
+        <h1 class="text-4xl font-bold">Hi, I'm Nandi Lunga</h1>
+        <p class="mt-4">Web Developer | Mobile App Developer</p>
+    </header>
+
+    <img src="background.jpg" alt="">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+            
+        
+        .background-image {
+            background-image: url ('./file:///Users/nandilunga/Documents/Final%20portfolio/background.jpg')
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+
+        }
+    </style>
+
+    <section class="bg-gray-800 text-white py-16" id="about">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+            <p class="text-lg">I am a recent graduate from the Web Development and Mobile Apps program with a passion for creating innovative digital solutions. I've had a keen on becoming a developer because i can be creative, problem solve, build tangible products while learning each day.</p>
+            
+        </div>
+    </section>
+    <section class="bg-black text-white py-16" id="projects">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 --> 
+                <div class="bg-gray-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project 1</h3>
+                    <p>This was my very first project were i had to create a pizza order form using html and css. There has definetly changes to how I code, hence why I am showcasing it here .</p>
+                    <h3 class="text-xl font-semibold mb-4"></h3> <a href="https://github.com/nandilungaa/pizzaform/tree/main" target="_blank"> Here is the link</a>
+
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project 2</h3>
+                    <p>In this project I created a java assignment </p>
+                    <h3 class="text-xl font-semibold mb-4"></h3> <a href="https://github.com/nandilungaa/Javaproject/tree/main" target="_blank"> Here is the link</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Project 3</h3>
+                    <p>The Odd Number Viewer is a simple Java project designed to showcase odd numbers within a specified range. The project provides a user-friendly command-line interface where users can input a range of numbers. Once the range is provided, the program calculates and displays all the odd numbers within that range. </p>
+                    <h3 class="text-xl font-semibold mb-4"></h3> <a href="https://github.com/nandilungaa/third-project/tree/main" target="_blank"> Here is the link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-800 text-white py-16" id="contact">
+    </section>
+    <section class="bg-gray-800 text-white py-16" id="contact">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">Contact Me</h2>
+            <p class="text-lg">Feel free to get in touch with me:</p>
+            <p class="text-lg">Phone: <a href="tel:8255582084" class="underline">8255582084</a></p>
+            <p class="text-lg">Email: <a href="mailto:lunganandy@gmail.com" class="underline">lunganandy@gmail.com</a></p>
+            <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/nandi-lunga-2789a2275/" class="underline">Nandi Lunga</a></p>
+        </div>
+    </section>
+    <footer class="bg-black text-white py-4 text-center">
+        <p>&copy; 2023 Nandi Lunga. All rights reserved.</p>
+    </footer>
+</body>
+</html>

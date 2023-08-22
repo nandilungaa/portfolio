@@ -1,0 +1,61 @@
+/* Add your custom styles here */
+
+/* Override default text color */
+body {
+    color: #ffffff;
+}
+
+/* Style navigation links */
+nav a {
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00a3cc; /* Change color on hover */
+}
+
+/* Style header section */
+header {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style about and contact sections */
+section {
+    padding: 4rem 0;
+}
+
+/* Style project cards */
+.bg-gray-900 {
+    border: 1px solid #333333;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bg-gray-900:hover {
+    transform: translateY(-5px);
+}
+
+/* Style footer */
+footer {
+    background-color: #000000;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .grid-cols-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
